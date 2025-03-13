@@ -15,7 +15,7 @@ const AnimeDetail = () => {
   useEffect(() => {
     const fetchAnimeDetails = async () => {
       try {
-        const response = await fetch(`https://barnime-skukars-projects.vercel.app//api/anime/${slug}`);
+        const response = await fetch(`https://barnime-skukars-projects.vercel.app/api/anime/${slug}`);
         if (!response.ok) {
           throw new Error('Failed to fetch anime details');
         }
