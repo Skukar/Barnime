@@ -1,4 +1,4 @@
-const API_BASE_URL = 'https://barnime-skukars-projects.vercel.app'; // sesuaikan dengan port server Anda
+const API_BASE_URL = 'https://barnime-skukars-projects.vercel.app/'; // sesuaikan dengan port server Anda
 
 export const getTopAiring = async () => {
   try {
